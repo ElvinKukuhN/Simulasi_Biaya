@@ -64,3 +64,55 @@ If you discover a security vulnerability within Laravel, please send an e-mail t
 ## License
 
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+
+
+## Installation
+
+1. Clone the repository to your local machine:
+
+    ```bash
+    git clone https://github.com/ElvinKukuhN/Simulasi_Biaya.git
+    ```
+
+2. Navigate to the project directory:
+
+    ```bash
+    cd Simulasi_Biaya
+    ```
+
+3. Install Composer dependencies:
+
+    ```bash
+    composer install
+    ```
+
+4. Copy the `.env.example` file to `.env`:
+
+    ```bash
+    cp .env.example .env
+    ```
+
+5. Generate application key:
+
+    ```bash
+    php artisan key:generate
+    ```
+
+6. Create a new database and update the `.env` file with your database credentials.
+
+7. Run database migrations:
+
+    ```bash
+    php artisan migrate
+    ```
+
+## Usage
+
+1. Start the development server:
+
+    ```bash
+    php artisan serve
+    ```
+
+2. Open your API testing tool (such as Postman or Insomnia) and send requests to `http://localhost:8000` to interact with the API endpoints.
+
